@@ -4,16 +4,16 @@ Creates a new Debian VM in VirtualBox. Zero Touch Installation - Just Run 1 comm
 
 ## How to use
 
-Windows computer systems (Run as Adminstrator) -
+### Windows computer systems (Run as Adminstrator) -
 
 > setup-windows.ps1
 
-For Debian/Ubuntu based systems (Run as sudo/root) -
+### For Debian/Ubuntu based systems (Run as sudo/root) -
 
 > sudo chmod +x ./setup-debian.sh
 > sudo ./setup-debian.sh
 
-For RHEL/CentOS/Fedora based systems (Run as sudo/root) -
+### For RHEL/CentOS/Fedora based systems (Run as sudo/root) -
 
 > sudo chmod +x ./setup-rhel.sh
 > sudo ./setup-rhel.sh
