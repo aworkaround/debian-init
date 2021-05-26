@@ -2,7 +2,7 @@
 
 Creates a new Debian VM in VirtualBox. Zero Touch Installation - Just Run 1 command and all set.
 
-## How to use
+# How to use
 
 ### Windows computer systems (Run as Adminstrator) -
 
@@ -11,14 +11,16 @@ Creates a new Debian VM in VirtualBox. Zero Touch Installation - Just Run 1 comm
 ### For Debian/Ubuntu based systems (Run as sudo/root) -
 
 > sudo chmod +x ./setup-debian.sh
+
 > sudo ./setup-debian.sh
 
 ### For RHEL/CentOS/Fedora based systems (Run as sudo/root) -
 
 > sudo chmod +x ./setup-rhel.sh
+
 > sudo ./setup-rhel.sh
 
-## Useful commands
+# Useful commands
 
 -   To Turn a VM on or create a new VM. Make sure you're in a folder where Vagrantfile exists. Here in my case 'src' folder is having Vagrantfile
     > vagrant up
@@ -32,4 +34,5 @@ Creates a new Debian VM in VirtualBox. Zero Touch Installation - Just Run 1 comm
     > vagrant ssh
 -   To create new password of vagrant user
     > vagrant ssh
+    
     > sudo passwd
