@@ -4,25 +4,27 @@ Creates a new Debian VM in VirtualBox. Zero Touch Installation - Just Run 1 comm
 
 ## How to use
 
--   If you have Windows computer, run 'setup-windows.ps1' file as administrator.
--   If you have Debian/Ubuntu based computer, run './setup-debian.sh' using sudo/root. Make sure to change permissions of this file using 'sudo chmod +x setup-debian.sh'
--   If you have RHEL/CentOS/Fedora based computer, run './setup-rhel.sh' using sudo/root. Make sure to change permissions of this file using 'sudo chmod +x setup-rhel.sh'
+Windows computer systems (Run as Adminstrator) -
+> setup-windows.ps1
+For Debian/Ubuntu based systems (Run as sudo/root) -
+> sudo chmod +x ./setup-debian.sh
+> sudo ./setup-debian.sh
+For RHEL/CentOS/Fedora based systems (Run as sudo/root) -
+> sudo chmod +x ./setup-rhel.sh
+> sudo ./setup-rhel.sh
 
 ## Useful commands
 
-> vagrant up
-
 -   To Turn a VM on or create a new VM. Make sure you're in a folder where Vagrantfile exists. Here in my case 'src' folder is having Vagrantfile
-    > vagrant destroy
+    > vagrant up
 -   To delete VM including the data. Be cautious.
-    > vagrant halt
+    > vagrant destroy
 -   To shut down gracefully.
-    > vagrant reload
+    > vagrant halt
 -   To reload if you made any change in Vagrantfile.
-    > vagrant ssh
+    > vagrant reload
 -   To SSH that VM. No password required. SSH key will be used behind the scenes.
-
-## To create new password of vagrant user
-
-> vagrant ssh
-> sudo passwd
+    > vagrant ssh
+-   To create new password of vagrant user
+    > vagrant ssh
+    > sudo passwd
